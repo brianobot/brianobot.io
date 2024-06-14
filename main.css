@@ -5,6 +5,8 @@ html {
 
 body {
     font-family:  Neue, Arial, sans-serif;
+    font-family:  Atkinson, sans-serif;
+    font-size: 18px;
 }
 
 h1 {
@@ -40,7 +42,7 @@ h1 {
 }
 
 .main-container {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     padding: 20px;
     min-height: 100vh;
@@ -53,16 +55,14 @@ h2 {
 }
 
 .main-container .intro {
-    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: space-between;
+    text-align: justify;
     margin-bottom: 40px;
+    margin-top: 60px;
     
 }
 
 .main-container .intro .write-up {
-    width: 60%;
     text-align: justify;
 }
 
@@ -71,6 +71,13 @@ h2 {
     width: 250px;
     object-fit: cover;
     margin-right: 20px;
+}
+
+#profile-image-warning {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 blockquote i {
