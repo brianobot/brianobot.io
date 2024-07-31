@@ -34,11 +34,11 @@ h1 {
     margin: 5px;
 }
 
-.heading-1 span li a:hover {
+.heading-1 span li a:hover,
+h1:hover {
     list-style: none;
     text-decoration: none;
-    color: rgb(17, 238, 227);
-    margin-bottom: 5px;
+    color: rgb(116, 17, 238);
 }
 
 .main-container {
@@ -140,6 +140,7 @@ figcaption {
     .main-container .intro {
         display: block;
         padding: 0;
+        max-width: 90%;
         justify-content: center;
     }
 
